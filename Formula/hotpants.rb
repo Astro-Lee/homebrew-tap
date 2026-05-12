@@ -2,7 +2,7 @@ class Hotpants < Formula
   desc "High Order Transform of Psf ANd Template Subtraction"
   homepage "https://github.com/Astro-Lee/hotpants"
   url "https://github.com/Astro-Lee/hotpants/archive/refs/tags/v5.1.11.tar.gz"
-  sha256 "REPLACE_WITH_ACTUAL_SHA256"
+  sha256 "1da3f9b80a21a507e1a665e624d628bf33da5675d2d50aab84700310632c03d8"
 
   depends_on "cfitsio"
 
