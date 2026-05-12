@@ -5,7 +5,7 @@ class Multinest < Formula
   sha256 "ce3f5183d9655f0960d3e788864e79fe489859fbf7c1218987fe9f7202ea3bb9"
 
   depends_on "cmake"  => :build
-  depends_on "gcc"    # gfortran
+  depends_on "gcc" # gfortran
   depends_on "lapack"
   depends_on "open-mpi"
 
@@ -25,7 +25,7 @@ class Multinest < Formula
   end
 
   test do
-    assert_predicate lib/"libmultinest.dylib", :exist?
-    assert_predicate include/"multinest.h", :exist?
+    assert_path_exists lib/"libmultinest.dylib"
+    assert_path_exists include/"multinest.h"
   end
 end
