@@ -4,7 +4,7 @@ class Multinest < Formula
   url "https://github.com/Astro-Lee/MultiNest/archive/refs/tags/v3.12.tar.gz"
   sha256 "ce3f5183d9655f0960d3e788864e79fe489859fbf7c1218987fe9f7202ea3bb9"
 
-  depends_on "cmake"  => :build
+  depends_on "cmake" => :build
   depends_on "gcc" # gfortran
   depends_on "lapack"
   depends_on "open-mpi"
